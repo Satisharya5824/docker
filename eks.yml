@@ -8,7 +8,9 @@ metadata:
 managedNodeGroups:
   - name: roboshop
     instanceTypes: ["t3.micro"]
-    desiredCapacity: 3
+    desiredCapacity: 4
+    minSize: 3
+    maxSize: 4
     spot: true
 
 autoModeConfig:
